@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meme Motivasi Absurd by Adha edies</title>
+  <title>Meme Motivasi Absurd</title>
 </head>
 <body>
   <div class="container">
@@ -78,13 +78,15 @@ button:hover {
   "teruslah bernafas hari ini."
 ];
 
-  const API-key = [bearer-sha256:c2523072bb5dc8aecdefa48a26a814c3e1f23c5a1a67c236b21af3b870b379cd]
+// ngambil data API dari Github //
+const apikey = 'bearer-sha256:c2523072bb5dc8aecdefa48a26a814c3e1f23c5a1a67c236b21af3b870b379cd';
+
 
 const names = ["Adha Edies Wulandari",];
 const schools = ["DARI SMAN 3 BULUKUMBA"];
-const icons = ["🌟","🚀","💡"];
+const icons = ["🌟","🚀","💡","🎯"];
 
- function generateMeme() {
+function generateMeme() {
   const quote = quotes[Math.floor(Math.random() * quotes.length)];
   const name = names[Math.floor(Math.random() * names.length)];
   const school = schools[Math.floor(Math.random() * schools.length)];
